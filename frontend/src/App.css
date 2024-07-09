@@ -1,0 +1,159 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Estilos para o contêiner principal da aplicação */
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+/* Estilos para títulos */
+h1, h2, h3 {
+  color: #333;
+}
+
+/* Estilos para botões */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para listas */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+ul li strong {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+
+
+/* PesquisaCervejas.css */
+
+.pesquisa-form {
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.pesquisa-form input[type="text"],
+.pesquisa-form input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.pesquisa-form button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pesquisa-form button:hover {
+  background-color: #218838;
+}
+
+/* AtualizaCerveja.css */
+
+.atualiza-form {
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.atualiza-form input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.atualiza-form button {
+  background-color: #ffc107;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.atualiza-form button:hover {
+  background-color: #e0a800;
+}
+
+/* ListagemCervejas.css */
+
+.listagem-container {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+ul li strong {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.botoes {
+  margin-top: 10px;
+}
+
+.botoes button {
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.botoes button:hover {
+  background-color: #0056b3;
+}
